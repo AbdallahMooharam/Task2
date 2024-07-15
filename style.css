@@ -1,0 +1,75 @@
+
+
+     
+        .A {
+            
+            padding: 20px;
+            background-color:whitesmoke;
+           
+        }
+
+     
+        .B {
+            
+            padding: 100px;
+            background-color:darkgray;
+            background-image: url("7.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+     .B p,h2,h3{
+color: #322b2b;
+
+     }
+
+
+        .C {
+          
+            padding: 20px;
+            background-color: #eee;
+        }
+
+  
+        input[type="button"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+       
+        h1, h2, h3, p, ul {
+            margin-bottom: 10px;
+        }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;    
+
+}
+
+.product-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
+
+/* تنسيقات الصور */
+.product-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    border: 2px solid #333; 
+}
+
